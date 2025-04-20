@@ -18,8 +18,18 @@
           </ul><span class="heading">Preferences</span>
           
           <ul class="list-unstyled">
-            <li> <a href="event_list.php"> <i class="icon-list"></i>Event </a></li>
+  <a href="#eventSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
+    <i class="icon-list"></i> Event
+  </a>
+  <ul class="collapse list-unstyled" id="eventSubmenu">
+    <li><a href="event_list.php">Danh sách sự kiện</a></li>
+    <li><a href="dichvu.php">Dịch Vụ</a></li>
+    <li><a href="thuexe.php">Thuê xe </a></li>
+  </ul>
+</li>
+
             <li> <a href="seats_list.php"> <i class="icon-list"></i>Seats </a></li>
+           
           </ul>
           <!-- Check-in Online -->
     <span class="heading">Check-in</span>
