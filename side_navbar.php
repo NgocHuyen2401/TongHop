@@ -22,7 +22,7 @@
     <i class="icon-list"></i> Event
   </a>
   <ul class="collapse list-unstyled" id="eventSubmenu">
-    <li><a href="tienich.php">Tiện Ích </a></li>
+    <li><a href="tienich.php">Tool &#40;Tiện Ích&#41; </a></li>
   </ul>
 </li>
 
@@ -36,7 +36,7 @@
           <!-- top_navbar.php -->
 <ul class="navbar-nav ml-auto">
     <li class="nav-item">
-        <a class="nav-link" href="contact.php">Liên hệ</a>
+        <a class="nav-link" href="contact.php"> Contact &#40; Liên hệ&#41;</a>
     </li>
     <!-- Các item khác -->
 </ul>
