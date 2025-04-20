@@ -22,9 +22,7 @@
     <i class="icon-list"></i> Event
   </a>
   <ul class="collapse list-unstyled" id="eventSubmenu">
-    <li><a href="tienich.php">Danh sách sự kiện</a></li>
-    <li><a href="dichvu.php">Dịch Vụ</a></li>
-    <li><a href="thuexe.php">Thuê xe </a></li>
+    <li><a href="tienich.php">Tiện Ích </a></li>
   </ul>
 </li>
 
@@ -33,8 +31,7 @@
           </ul>
           <!-- Check-in Online -->
     <span class="heading">Check-in</span>
-    <ul class="list-unstyled">
-        <li><a href="checkin.php"> <i class="icon-check"></i>Check-in Online</a></li>
+    <ul class="list-unstyled">      <li><a href="checkin.php"> <i class="icon-check"></i>Check-in Online</a></li>
     </ul>
           <!-- top_navbar.php -->
 <ul class="navbar-nav ml-auto">
