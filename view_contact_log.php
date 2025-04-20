@@ -18,7 +18,7 @@
             background: #fff;
             box-shadow: 0 2px 8px rgba(0,0,0,0.1);
         }
-        th, td {
+        th, td {    
             border: 1px solid #ccc;
             padding: 12px;
             text-align: left;
