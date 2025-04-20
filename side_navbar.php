@@ -22,7 +22,7 @@
     <i class="icon-list"></i> Event
   </a>
   <ul class="collapse list-unstyled" id="eventSubmenu">
-    <li><a href="event_list.php">Danh sách sự kiện</a></li>
+    <li><a href="tienich.php">Danh sách sự kiện</a></li>
     <li><a href="dichvu.php">Dịch Vụ</a></li>
     <li><a href="thuexe.php">Thuê xe </a></li>
   </ul>
