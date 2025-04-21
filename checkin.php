@@ -8,18 +8,19 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $booking_code = trim($_POST['booking_code']);
 
     // Kiểm tra xem mã đặt chỗ có tồn tại không
-    $query = "SELECT * FROM tickets WHERE booking_code = ?";
+    $query = "SELECT * FROM ticket WHERE booking_code = ?";
     $stmt = $conn->prepare($query);
     $stmt->execute([$booking_code]);
     $result = $stmt->fetch(PDO::FETCH_ASSOC);
 
     if ($result) {
         // Cập nhật trạng thái check-in
-        $update_query = "UPDATE tickets SET checked_in = 1 WHERE booking_code = ?";
+        $update_query = "UPDATE tickets  SET checked_in = 1 WHERE booking_code = ?";
         $update_stmt = $conn->prepare($update_query);
         $update_stmt->execute([$booking_code]);
 
-        $message = "<div class='alert alert-success text-center'>✅ Check-in thành công! Chúc bạn có chuyến bay tốt đẹp.</div>";
+        header("Location: checkin_success.php?code=" . urlencode($booking_code));
+        exit;
     } else {
         $message = "<div class='alert alert-danger text-center'>❌ Mã đặt chỗ không hợp lệ! Vui lòng thử lại.</div>";
     }
